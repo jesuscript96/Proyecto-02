@@ -1,0 +1,24 @@
+.fondo {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+}
+.header-row {
+    height: 10vh;
+}
+.img-logo {
+    object-fit: cover;
+    width:100%;
+  }
+.order {
+    border-radius: 1rem !important;
+}
+.carouselh {
+    height: 80vh;
+}
+
+.carousel-itemh {
+    height: 80vh;
+    width: 100vw;
+}
