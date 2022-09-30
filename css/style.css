@@ -1,24 +1,35 @@
-.fondo {
-    min-height: 100vh;
-    min-width: 100vw;
-    background-image: url(../images/hero-bg.jpg);
+.logo {
+    background-image: url("../images/NetflixAjustado.png");
     background-size: cover;
 }
-.header-row {
-    height: 10vh;
+.cta {
+    border-radius: 1rem;
 }
-.img-logo {
-    object-fit: cover;
-    width:100%;
-  }
-.order {
-    border-radius: 1rem !important;
+#main {
+    height: 100vh;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
 }
-.carouselh {
-    height: 80vh;
+#carousel {
+    
 }
 
-.carousel-itemh {
-    height: 80vh;
-    width: 100vw;
+#burgerday {
+    width: 18rem;
+    height: 10rem;
+    background-image: url(../images/hamburger-494706_640.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+#about-us {
+    background-color: #0e1213;
+}
+.bg-box {
+    height: 100% !important;
+}
+.beige {
+    background-color: beige;
+}
+.gris {
+    background-color: gray;
 }
