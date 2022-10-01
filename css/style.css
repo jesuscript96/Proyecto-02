@@ -1,35 +1,103 @@
-.logo {
-    background-image: url("../images/NetflixAjustado.png");
-    background-size: cover;
-}
-.cta {
-    border-radius: 1rem;
+body {
+    background-color: #0e1213;
 }
 #main {
     height: 100vh;
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
-#carousel {
+#headermenu {
+    height: 25vh;
+}
+#maincontact {
+    height: 100vh;
+}
+
+.menu-items {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.menu-items:hover {
+    transform: scale(1.2);
+    transition: .5s;
+    color: white;
+}
+.botones {
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.cta {
+    border-radius: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.cta:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+h1 {
+    color: white;
+    
+    font-family: 'Rubik Dirt', cursive;
+    font-size: xx-large;
+}
+
+
+p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Dirt', cursive;
+}
+.text {
     
 }
 
 #burgerday {
     width: 18rem;
     height: 10rem;
-    background-image: url(../images/hamburger-494706_640.jpg);
+    background-image: url(../images/burger-atraccion.jpg);
     background-position: center;
     background-size: 100%;
 }
-#about-us {
-    background-color: #0e1213;
+#livemusic {
+    width: 18rem;
+    height: 10rem;
+    background-image: url(../images/drum-set-1839383_640.jpg);
+    background-position: center;
+    background-size: 100%;
 }
-.bg-box {
-    height: 100% !important;
+#happyhour {
+    width: 18rem;
+    height: 10rem;
+    background-image: url(../images/happy-hour-4784365_640.jpg);
+    background-position: center;
+    background-size: 100%;
 }
-.beige {
-    background-color: beige;
+.opiniones {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.letrasmenu {
+    color: black;
+    font-family: 'Teko', sans-serif;
+}
+.fotomenu {
+    border-radius: 0 0 0 30%;
+}
+
+.letrasfooter {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .gris {
-    background-color: gray;
+    background-color: rgb(36, 36, 36);
+}
+.scroller-items {
+    color: goldenrod;
 }
