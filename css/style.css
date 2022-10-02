@@ -25,6 +25,9 @@ body {
     transition: .5s;
     color: white;
 }
+.menu-items:active {
+    color: white;
+}
 .botones {
     font-family: 'Rubik Dirt', cursive;
 }
@@ -100,4 +103,13 @@ p {
 }
 .scroller-items {
     color: goldenrod;
+}
+.scroller-items:active {
+    color: goldenrod;
+}
+.scroller-items:hover {
+    color: goldenrod;
+}
+#about-us {
+    background-color: #1b1f22;
 }
